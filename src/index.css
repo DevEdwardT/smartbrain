@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+p::selection {
+  color: white;
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
