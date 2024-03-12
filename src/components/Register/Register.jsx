@@ -18,7 +18,7 @@ export default function Register({ onRouteChange, loadUser }) {
 
   const onSubmitSignIn = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3000/register", {
+    fetch("https://smartbrain-api-5e2k.onrender.com/register", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
